@@ -12,8 +12,7 @@ def to_markdown(text):
   return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 
 
-os.environ['GEMINI_API_KEY'] = 'AIzaSyDgv04wJGAnVUujAkfoe7o_xdZ2aT32zdg'
-
+os.environ['GEMINI_API_KEY'] = ''
 
 import google.generativeai as genai
 genai.configure(api_key=os.environ['GEMINI_API_KEY'])
