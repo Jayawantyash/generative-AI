@@ -6,7 +6,7 @@ from PIL import Image
 
 
 
-os.environ['GEMINI_API_KEY'] = 'AIzaSyDgv04wJGAnVUujAkfoe7o_xdZ2aT32zdg'
+os.environ['GEMINI_API_KEY'] = ''
 
 
 import google.generativeai as genai
